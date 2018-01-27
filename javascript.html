@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function func1(el){
+                var spans=document.getElementsByTagName('span');
+                for(var i=0; i<spans.length; i++)
+                {
+                    spans[i].style.color='black';
+                }
+                el.style.color='red';
+            }
+        </script>
+    </head>
+    <body>
+        
+            <span id="c1" onclick="func1(this)">Click1</span>
+            <span id="c2" onclick="func1(this)">Click2</span>
+            <span id="c3" onclick="func1(this)">Click3</span>
+            <span id="c4" onclick="func1(this)">Click4</span>
+
+    </body>
+</html>
